@@ -32,4 +32,12 @@ chmod +x reminder_script.sh
 ./reminder_script.sh &
 ```
 
+## 📝 Example Output
+
+```bash
+==============================
+Time for a 5-minute break! Step away from the screen.
+==============================
+```
+
 
