@@ -12,3 +12,11 @@ This is a simple Bash script that periodically reminds you to take a break — i
 
 ---
 
+## ▶️ How to Use
+
+### 1. Make the script executable
+
+```bash
+chmod +x reminder_script.sh
+
+
