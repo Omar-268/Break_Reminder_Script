@@ -12,11 +12,24 @@ This is a simple Bash script that periodically reminds you to take a break — i
 
 ---
 
+## ⚙️ Customization
+### You can edit the variables at the top of the script to suit your needs:
+
+- REMINDER_INTERVAL: Change the time between reminders (in minutes).
+- REPEAT_COUNT: Set how many reminders you want (0 = run forever).
+- MESSAGE: Customize the break reminder message.
+
 ## ▶️ How to Use
 
 ### 1. Make the script executable
 
 ```bash
 chmod +x reminder_script.sh
+```
+### 2. Run it in the background
+
+```bash
+./reminder_script.sh &
+```
 
 
